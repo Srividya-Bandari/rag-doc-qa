@@ -120,8 +120,3 @@ Optional live smoke tests (requires real API key and enabled env flag):
 ```bash
 RUN_LIVE_OPENAI_TESTS=true pytest tests/live_smoke
 ```
-
-## Notes
-
-- Do **not** commit secrets. Keep API keys only in local `.env`.
-- Current project is optimized for demo/showcase and learning, not multi-tenant production.
